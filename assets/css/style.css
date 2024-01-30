@@ -18,6 +18,8 @@ body::before {
   content: "";
   position: fixed;
   background: rgba(128, 171, 207, 0.35) top right no-repeat;
+  background-image: url('../img/bg.jpeg');
+  opacity: 0.1;
   background-size: cover;
   left: 0;
   right: 0;
@@ -30,6 +32,21 @@ body::before {
   body::before {
     background-attachment: fixed;
   }
+
+  body::before {
+  content: "";
+  position: fixed;
+  background: rgba(128, 171, 207, 0.35) top right no-repeat;
+  background-image: url('../img/bg.jpeg');
+  opacity: 0.1;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
 }
 
 a {
@@ -112,8 +129,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.5);
-  color: #000;
+  background: rgba(81, 144, 193, 0.8);
+  color: black;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -122,8 +139,9 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: rgba(81, 144, 193, 0.4);
-  ;
+  background: rgba(81, 144, 193, 0.8);
+  color: white;
+
 }
 
 @media (max-width: 992px) {
@@ -302,7 +320,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -904,7 +922,15 @@ section .container {
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
 }
+.social-links i {
+  font-size: 18px; 
+}
 
+@media (max-width: 992px) {
+  .social-links i {
+  font-size: 20px; 
+}
+}
 .contact .info-box i.bx {
   font-size: 24px;
   color: #5190c1;
