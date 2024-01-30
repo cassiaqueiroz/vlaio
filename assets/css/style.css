@@ -233,10 +233,12 @@ h6 {
 
 .navbar li {
   position: relative;
+
 }
 
 .navbar li+li {
   margin-left: 30px;
+  
 }
 
 .navbar a,
@@ -251,6 +253,8 @@ h6 {
   color: rgba(0, 0, 0, 0.9);
   white-space: nowrap;
   transition: 0.3s;
+  margin: 10px;
+
 }
 
 .navbar a i,
