@@ -715,7 +715,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: rgba(81, 144, 193, 0.4);
+  background: rgba(81, 144, 193, 0.25);
 }
 
 .portfolio #portfolio-flters li:last-child {
