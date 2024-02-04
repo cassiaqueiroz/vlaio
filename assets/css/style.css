@@ -1196,7 +1196,7 @@ section .container {
 }
 
 .back-to-top:hover {
-  color: #395c96; 
+  color: rgba(255, 255, 255, 0.88); 
   font-weight: 700;
 
 }
