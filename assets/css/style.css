@@ -1180,7 +1180,7 @@ section .container {
 }
 
 .credits a {
-  color: #80abcf;
+  color: rgba(81, 144, 193);
   transition: 0.3s;
 }
 
