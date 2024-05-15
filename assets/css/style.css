@@ -787,6 +787,7 @@ section .container {
   margin: 0 3px 25px 3px;
   transition: all 0.3s ease-in-out;
 }
+
 .pulse {
   animation: pulse 1.5s infinite;
 }
