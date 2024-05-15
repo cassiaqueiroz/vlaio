@@ -22,7 +22,7 @@ body::before {
   top: 0;
   height: 100vh;
   z-index: -1;
-  transform: scaleX(-1); 
+  transform: scaleX(-1);
 }
 
 
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color:  #5190c1;
+  color: #5190c1;
   text-decoration: none;
 }
 
@@ -287,7 +287,7 @@ h6 {
 
   .navbar ul {
     display: none;
- 
+
   }
 }
 
@@ -325,12 +325,13 @@ h6 {
 
 .navbar-mobile li {
   padding: 12px 20px;
-  
+
 }
 
 .navbar-mobile li+li {
   margin: 0;
 }
+
 .navbar-mobile a,
 .navbar-mobile a:focus {
   font-size: 16px;
@@ -773,6 +774,41 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.appointment-btn {
+  cursor: pointer;
+  display:inline;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 3px 25px 3px;
+  transition: all 0.3s ease-in-out;
+}
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.appointment-btn:hover {
+  background: #395c96;
+  color: #fff;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, .2)
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -789,7 +825,7 @@ section .container {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 16px 10px 16px;
+  padding: 8px 16px 8px 16px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -802,7 +838,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background:  #395c96;
+  background: #395c96;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1189,14 +1225,14 @@ section .container {
 }
 
 .back-to-top {
- 
-  color: white; 
+
+  color: white;
   font-size: 35px;
   font-weight: 700;
 }
 
 .back-to-top:hover {
-  color: rgba(255, 255, 255, 0.5); 
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
 
 }
