@@ -819,13 +819,14 @@ section .container {
   padding: 20px;
   text-align: center;
   z-index: 9999;
-  font-size: 1.2rem;
+  font-size: medium;
   color: #fff;
   font-weight: 500;
   border-radius: 10px;
-  background: linear-gradient(45deg, #5190c1, #395c96, #000); /* Gradiente de cores */
+  background: linear-gradient(90deg, #5190c1, #395c96); /* Gradiente de cores */
   background-size: 200% 200%;
-  animation: aquarela-gradient 10s ease infinite;
+  animation: aquarela-gradient 15s ease infinite;
+  border-radius: 1px;
 }
 
 @keyframes aquarela-gradient {
