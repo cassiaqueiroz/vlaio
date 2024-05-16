@@ -1241,6 +1241,8 @@ section .container {
   font-size: 13px;
   color: #fff;
   z-index: 999999;
+  font-weight: 300;
+
 }
 
 @media (max-width: 992px) {
@@ -1252,12 +1254,16 @@ section .container {
 }
 
 .credits a {
-  color: rgba(81, 144, 193);
   transition: 0.3s;
+  font-weight: 500;
+  color: #fff;
+
 }
 
 .credits a:hover {
   color: #fff;
+  font-weight: 300;
+
 }
 
 .back-to-top {
