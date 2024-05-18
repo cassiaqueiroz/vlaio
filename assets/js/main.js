@@ -211,27 +211,7 @@
     }
 
   });
-
-  window.addEventListener('DOMContentLoaded', () => {
-    const whatsappButton = document.getElementById("whatsappButton");
-    const portfolioFilters = document.querySelectorAll('#portfolio-flters li');
   
-    portfolioFilters.forEach(filter => {
-      filter.addEventListener('click', function() {
-        // Remove a classe 'filter-active' de todos os filtros
-        portfolioFilters.forEach(f => f.classList.remove('filter-active'));
-        // Adiciona a classe 'filter-active' apenas ao filtro clicado
-        this.classList.add('filter-active');
-  
-        // Verifica se o filtro "tattoo" está ativo e exibe o botão do WhatsApp
-        if (this.dataset.filter === '.filter-tattoo') {
-          whatsappButton.style.display = 'block';
-        } else {
-          whatsappButton.style.display = 'none';
-        }
-      });
-    });
-  });
 
   /**
    * Initiate portfolio lightbox 
